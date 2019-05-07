@@ -23,8 +23,9 @@
 
 #include <alpaka/alpaka.hpp>
 #include <cstdint>
-
+#include "cupla/defines.hpp"
 #include "cupla/namespace.hpp"
+
 
 #ifdef ALPAKA_ACC_CPU_B_SEQ_T_OMP2_ENABLED
 #   undef ALPAKA_ACC_CPU_B_SEQ_T_OMP2_ENABLED
